@@ -1,9 +1,9 @@
 
-package com.mycompany.bolinagagonzalezmaldifassi;
+package Proyecto;
 
 /**
  *
- * @author carlo
+ * @author Nicolas Boliaga, Carlos Gonzalez, Felix Maldifassi
  */
 public class Main {
     public static void main(String[] args) {
