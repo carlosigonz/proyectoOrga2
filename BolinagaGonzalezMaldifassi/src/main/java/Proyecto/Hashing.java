@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 public class Hashing {
     
+    
     public void crearAvion(){
         Scanner inSerial = new Scanner(System.in);
         Scanner inModelo = new Scanner(System.in);
