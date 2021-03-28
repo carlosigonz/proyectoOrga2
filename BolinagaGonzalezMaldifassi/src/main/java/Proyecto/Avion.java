@@ -14,9 +14,6 @@ public class Avion {
         this.piloto = null;
     }
     
-    public void crearAvion(){
-        System.out.println("Inserte el serial del avion");
-}
     
     public boolean isLibre(Avion avion){
         return avion.piloto == null;
