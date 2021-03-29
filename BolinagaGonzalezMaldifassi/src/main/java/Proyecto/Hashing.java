@@ -8,6 +8,25 @@ import java.util.Scanner;
  */
 public class Hashing {
     
+    private int tamano;
+
+    private Entrada tabla[];
+
+    Hashing(int tamanoPredefinido){
+        this.tamano = tamanoPredefinido;
+        this.tabla = new Entrada[tamanoPredefinido];
+    }
+
+    class Entrada {
+        final int key;
+        Avion value;
+        Entrada siguiente;
+
+        Entrada(int k, Avion a) {
+            key = k;
+            value = a;
+        }
+    }
     
     public void crearAvion(){
         Scanner inSerial = new Scanner(System.in);
@@ -29,6 +48,4 @@ public class Hashing {
         avion.removerPiloto(avion);
     }
     
-    
-    
-}
+}    
